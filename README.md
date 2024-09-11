@@ -1,5 +1,5 @@
 Normalization Problem
-''' python
+``` python
 #start
 #Use to Import numerical python Library
 import numpy as np
@@ -16,6 +16,7 @@ np. save("X_normalized.npy", Z)
 #Publish the original value of "Z" along with the original value of "X"
 print ("Original Value: \n", X, "\n Normalized Value: \n", Z) 
 #end
+
 Original Value: 
  [[0.24571014 0.58214871 0.69121124 0.42748001 0.06073605]
  [0.5523521  0.40589269 0.93307028 0.75329159 0.27531718]
@@ -28,10 +29,10 @@ Original Value:
  [ 0.74772541 -1.21565431  0.72201866  0.06595629 -1.27885495]
  [-0.63017305  0.66073143  0.55421886  1.47908976  0.45057056]
  [ 0.94176669 -1.67794715 -1.66969688  0.95486012  1.54937517]]
-'''
+```
 
  Division by 3 problem
- ''' python
+``` python
 #start
 #Use to Import numerical python Library
 import numpy as np
@@ -64,4 +65,4 @@ array([[  1,   2,   3,   4,   5,   6,   7,   8,   9,  10],
        [ 71,  72,  73,  74,  75,  76,  77,  78,  79,  80],
        [ 81,  82,  83,  84,  85,  86,  87,  88,  89,  90],
        [ 91,  92,  93,  94,  95,  96,  97,  98,  99, 100]])
-'''
+```
